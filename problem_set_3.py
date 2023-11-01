@@ -8,7 +8,7 @@ Rather, call whichever functions defined in this file that you want to run from 
 import random
 
 ##--------------------- Function #1 ---------------------##
-# Define a function named 'get_random_int'.  
+# Define a function named 'get_random_int'.
 # This function accepts two arguments: a minimum value and a maximum value.
 # The function must return a random integer between these two values, inclusive.
 # Use the function random.randint() to generate the pseudo-random number.
@@ -31,4 +31,3 @@ import random
 # Each time the user guesses, they are immediately informed whether they guessed correctly or not, with the printed output, "Correct!" or "Wrong!"
 # If at any time, the user enters an invalid response, the program immediately prints out the text, "Invalid response!" and does not print out anything further.
 # At the end, the function, assuming the user has entered all valid guesses, the program prints out the percent of guesses that user guessed correctly, following the format: "You guessed 75% of the random numbers correctly."
-
