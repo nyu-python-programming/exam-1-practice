@@ -7,8 +7,9 @@ Rather, call whichever functions defined in this file that you want to run from 
 
 import random
 
+
 ##--------------------- Function #1 ---------------------##
-# Define a function named 'get_random_int'.  
+# Define a function named 'get_random_int'.
 # This function accepts two arguments: a minimum value and a maximum value.
 # The function must return a random integer between these two values, inclusive.
 # Use the function random.randint() to generate the pseudo-random number.
@@ -34,6 +35,7 @@ def get_guess(max):
     else:
         return -1
 
+
 ##--------------------- Function #3 ---------------------##
 # Define a function named 'play_game'.
 # This function does not accept any arguments.
@@ -55,7 +57,7 @@ def play_game():
         print("Correct!")
     else:
         print("Wrong!")
-    
+
     # second guess
     if valid:
         result = get_guess(max)
@@ -66,7 +68,6 @@ def play_game():
             print("Correct!")
         else:
             print("Wrong!")
-    
 
     # third guess
     if valid:
@@ -74,7 +75,7 @@ def play_game():
         if result == -1:
             valid = False
         elif result:
-            total += 1    
+            total += 1
             print("Correct!")
         else:
             print("Wrong!")
@@ -89,14 +90,12 @@ def play_game():
             print("Correct!")
         else:
             print("Wrong!")
-    
+
     if not valid:
         print("Invalid response!")
     else:
         # percent
         percent = 100 * total / 4
-        percent = format(percent, '.0f')
+        percent = format(percent, ".0f")
         message = "You guessed {}% of the random numbers correctly.".format(percent)
         print(message)
-
-

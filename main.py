@@ -8,30 +8,32 @@ from problem_set_1 import *
 from problem_set_2 import *
 from problem_set_3 import *
 
+
 def main():
-  """
-  Makes use of the functions written in the three problem set files.
-  Feel free to comment/uncomment any lines you do not wish to run or not run at the moment.
-  """
+    """
+    Makes use of the functions written in the three problem set files.
+    Feel free to comment/uncomment any lines you do not wish to run or not run at the moment.
+    """
 
-  # run functions from problem_set_1
-  print("--- RUNNING PROBLEM SET 1 ---\n")
-  bark()
-  bark_with_validation()
-  respond_to_anything()
-  respond_to_anything_but_nonsense()
+    # run functions from problem_set_1
+    print("--- RUNNING PROBLEM SET 1 ---\n")
+    bark()
+    bark_with_validation()
+    respond_to_anything()
+    respond_to_anything_but_nonsense()
 
-  # run functions from problem_set_2
-  print("--- RUNNING PROBLEM SET 2 ---\n")
-  weather_helper()
+    # run functions from problem_set_2
+    print("--- RUNNING PROBLEM SET 2 ---\n")
+    weather_helper()
 
-  # run functions from problem_set_3
-  print("--- RUNNING PROBLEM SET 3 ---\n")
-  play_game()
+    # run functions from problem_set_3
+    print("--- RUNNING PROBLEM SET 3 ---\n")
+    play_game()
 
-  # print out a farewell message
-  print()
-  print("--- BYE BYE! ---")
+    # print out a farewell message
+    print()
+    print("--- BYE BYE! ---")
+
 
 # call the main function
 main()
